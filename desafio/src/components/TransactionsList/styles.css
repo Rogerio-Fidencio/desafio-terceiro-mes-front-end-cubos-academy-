@@ -1,0 +1,33 @@
+.table {
+  width: 950px;
+}
+
+.table-body {
+  display: flex;
+  flex-direction: column;
+}
+
+.table-line {
+  display: flex;
+  justify-content: space-between;
+  border-bottom: 1px solid #E0E0E0;
+}
+
+.line-items {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  width: 150px;
+  height: 55px;
+  position: relative;
+}
+
+.value-item {
+  font-family: 'Lato', sans-serif;
+  font-weight: 700;
+}
+
+.action-button {
+  cursor: pointer;
+}
